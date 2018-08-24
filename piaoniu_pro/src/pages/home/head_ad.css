@@ -1,0 +1,39 @@
+.headad {
+	width:100%;
+	height:50px;
+	background:#4c4c4c;
+	display: flex;
+	
+}
+.headad .logo {
+	width:34px;
+	height:34px;
+	border-radius: 5px;
+	margin-left:15px;
+	margin-top:8px;
+	background:url(../../static/img/logo.png) no-repeat 0 0;
+	background-size: 34px 34px;
+}	
+.headad .slog {
+	flex:1;
+	margin-left: 15px;
+	margin-top: 8px;
+}
+.headad .slog  p {
+	font-size: 14px;
+	color:#fff;
+	text-align: left;
+}
+.headad .download {
+	margin-top:8px;
+	width:80px;
+	height:30px;
+	background: #ff2661;
+	border-radius: 15px;
+	border:none;
+	font-size:14px;
+	color:#fff;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 15px;
+}
